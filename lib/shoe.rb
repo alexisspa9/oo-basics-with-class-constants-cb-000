@@ -5,16 +5,16 @@ class Shoe
   def initialize(brand)
     @brand = brand
       BRANDS.each do |b|
-        if  @brand != BRANDS.b
+        if  brand != BRANDS.b
           BRANDS << brand
         end
       end
   end
 
-  def initialize(brand)
-    @brand = brand
-    BRANDS << brand unless BRANDS.include?(brand)
-  end
+  # def initialize(brand)
+  #   @brand = brand
+  #   BRANDS << brand unless BRANDS.include?(brand)
+  # end
 
   def cobble
     self.condition = "new"
