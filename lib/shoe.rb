@@ -4,11 +4,13 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
+    if BRANDS.length > 0
     BRANDS.each do |b|
       if  @brand != b
         BRANDS << @brand
       end
     end
+    emd
 
   end
 
