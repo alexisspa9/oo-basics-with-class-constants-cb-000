@@ -4,22 +4,18 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-    if BRANDS.length > 0
       BRANDS.each do |b|
         if  @brand != BRANDS.b
           BRANDS << brand
         end
       end
-    else
-      BRANDS << brand
-    end
   end
 
   def initialize(brand)
     @brand = brand
     BRANDS << brand unless BRANDS.include?(brand)
   end
-  
+
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
