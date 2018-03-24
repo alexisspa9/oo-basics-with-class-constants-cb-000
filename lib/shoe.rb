@@ -13,7 +13,7 @@ class Shoe
   else
     BRANDS << @brand
 
-    
+
   end
 
   end
