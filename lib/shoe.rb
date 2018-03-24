@@ -10,7 +10,11 @@ class Shoe
         BRANDS << @brand
       end
     end
-    emd
+  else
+    BRANDS << @brand
+
+    
+  end
 
   end
 
